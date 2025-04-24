@@ -1,4 +1,5 @@
-# Welcome to your Lovable project
+
+# GREECARE: Environmental Consciousness Platform
 
 ## Project info
 
@@ -52,7 +53,7 @@ npm run dev
 
 ## What technologies are used for this project?
 
-This project is built with:
+GREECARE is built with:
 
 - Vite
 - TypeScript
