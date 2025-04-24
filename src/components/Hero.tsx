@@ -1,13 +1,13 @@
 
 import { Button } from "@/components/ui/button";
-import { Tree, Leaf } from "lucide-react";
+import { TreeDeciduous, Leaf } from "lucide-react";
 
 const Hero = () => {
   return (
     <div className="relative min-h-[80vh] flex items-center justify-center bg-gradient-to-br from-green-50 to-purple-50">
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-10 left-10 text-green-600">
-          <Tree size={40} />
+          <TreeDeciduous size={40} />
         </div>
         <div className="absolute bottom-10 right-10 text-green-600">
           <Leaf size={40} />
