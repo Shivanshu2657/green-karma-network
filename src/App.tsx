@@ -11,6 +11,7 @@ import Leaderboard from "./pages/Leaderboard";
 import Tips from "./pages/Tips";
 import NotFound from "./pages/NotFound";
 import Navbar from "./components/Navbar";
+import ChatBot from "./components/ChatBot";
 
 const queryClient = new QueryClient();
 
@@ -31,6 +32,7 @@ const App = () => (
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
+        <ChatBot />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
